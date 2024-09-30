@@ -22,8 +22,7 @@ This program allows users to bid for Messi's jersey in an auction. Users can inp
 5. The program continues asking for more bids until the user types `no`.
 6. The program then announces the winner and their bid amount.
 
-## Example Run
-    ```python
+## Example Run  
     what is your name: John
     what is your bid (in k)? रु200
     do you want to bid again? yes or no: yes
@@ -33,4 +32,20 @@ This program allows users to bid for Messi's jersey in an auction. Users can inp
     Jersey sold to Alice for 250k   
     {'lowest': 150, 'John': 200, 'Alice': 250}
 
+## How to Run
+
+1. Clone the repository or download the Python script.
+2. Run the script in your terminal or Python IDE.
+3. Follow the prompts to enter your name and bid.
+4. Once all bids are entered, the program will announce the winner.
+
+## Code Explanation
+
+- The `auction` dictionary stores the names and bid amounts.
+- The `while` loop keeps running until the user inputs 'no' when asked if they want to bid again.
+- The program checks if the current bid is higher than the highest bid so far using `max()`.
+- The winner is determined based on the highest bid in the dictionary.
+
 ## License
+
+This project is open-source and available for use, distribution, and modification.
