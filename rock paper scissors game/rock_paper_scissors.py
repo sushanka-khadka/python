@@ -1,7 +1,6 @@
 # rock scissors paper game
 import os
 import random
-import time
 
 def info():
     print('''
@@ -39,27 +38,18 @@ while(True):
 
         if(user=='rock' and ai=='paper'):            
             print('you choose Rock i choose paper. I won!!!')
-            time.sleep(0.9)
         elif(user=='rock' and ai== 'scissors'):
             print('you choose Rock i choose Scissors. You won!!!')
-            time.sleep(0.9)
         elif(user=='paper' and ai=='scissors'):
             print('you choose Paper i choose Scissors. I won!!!')
-            time.sleep(0.9)
         elif(user=='paper' and ai=='rock'):
             print('you choose Paper i choose Rock. You won!!!')
-            time.sleep(0.9)
         elif(user=='scissors' and ai=='rock'):
             print('you choose Scissors i choose Rock. I won!!!')
-            time.sleep(0.9)
         elif(user=='scissors' and ai=='paper'):
             print('you choose Scissors i choose Paper. You won!!!')
-            time.sleep(0.9)
         else:
             print('Draw. Please continue')
-            time.sleep(0.9)
-#        os.system('cls')
     input('press enter to continue...')
     os.system('cls')
-    # os.system('clear')
-        
+    # os.system('clear')        
