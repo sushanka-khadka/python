@@ -1,2 +1,3 @@
-Prime Number
-This program will check if given number or list is prime number or not.
+# Prime Number
+This program will check if given number  prime number or not.
+Also filters the prime numbers from the given input list.
