@@ -32,7 +32,7 @@ if user == "left":
     else:
       print('GAME OVER')
   else:  
-    print('Game Over!!!\n Attacked by Cocordile!')  
+    print('Game Over!!!\n Attacked by Crocodile!')  
 else:
   print('Game Over!!!\n Fall into a hole')
 
