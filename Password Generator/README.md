@@ -51,6 +51,11 @@ The list is shuffled, and then the password is output as a string.
 ### Sample Output After Shuffle:
     Your password is: q9fh#B4@Cm!
 ## Key Functions Used
-   - random.choice(): Used to select a single random character from a sequence.
-   - random.choices(): Used to select multiple random characters from a sequence.
-   - random.shuffle(): Shuffles a list in place to ensure the password has a random order.
+  * `random.choice()`: Used to select a single random character from a sequence.
+  * `random.choices()`: Used to select multiple random characters from a sequence.
+  * `random.shuffle()`: Shuffles a list in place to ensure the password has a random order.
+
+## License
+This project is open-source and free to use.
+
+    This `README.md` provides a clear description of both methods, instructions on how to run the script, and examples of the output. It also explains the key functions used in the script.
