@@ -45,7 +45,6 @@ This project uses the following external Python libraries:
 Ensure you have these libraries installed. These should be pre-installed in standard Python distributions.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-    This `README.md` provides an overview of the game mechanics, how to run it, and other key details. Let me know if you need any adjustments!
-
+This project is open-source and free to use.
+   ```css   
+   This `README.md` provides a clear description of how your program works, how to run it, and includes an example.
