@@ -23,10 +23,11 @@ The project is built using a custom library (calculator_lib) that contains the f
     python calculator.py  
 4. Enter the first number and then continuously enter the next number for calculations.
 5. Choose an operation (+, -, *, /) when prompted.
-7. After each calculation, you can:
+6. After each calculation, you can:
     * Press y to continue using the result in further operations.
     * Press n to start a new calculation.
     * Press e to exit the program.
+
 
 ## Features
 * Basic arithmetic operations (addition, subtraction, multiplication, division).
