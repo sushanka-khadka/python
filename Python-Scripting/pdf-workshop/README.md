@@ -1,2 +1,2 @@
-# Desctiption
+# Description
 This project has the functionality of merging pdf files, appending pages, merging pages, etc...
